@@ -43,7 +43,7 @@ class NewsPlease:
         :return:
         """
         extractor = article_extractor.Extractor(
-            ['newspaper_extractor', 'readability_extractor', 'date_extractor', 'lang_detect_extractor'])
+            ['newspaper_extractor', 'readability_extractor', 'lang_detect_extractor'])
 
         title_encoded = ''.encode()
         if not url:
