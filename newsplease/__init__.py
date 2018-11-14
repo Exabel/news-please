@@ -13,6 +13,7 @@ from dotmap import DotMap
 from newsplease.pipeline.pipelines import ExtractedInformationStorage
 from newsplease.crawler.simple_crawler import SimpleCrawler
 
+print('Running newsplease without date_extractor')
 
 class NewsPlease:
     """
